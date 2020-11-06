@@ -1,0 +1,3 @@
+[submodule "react-test"]
+	path = react-test
+	url = ./examples/react-test

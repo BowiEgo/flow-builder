@@ -1,0 +1,30 @@
+{
+  "name": "flow-builder",
+  "version": "0.0.1",
+  "description": "a flow builder made by canvas",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:self": "rollup -c config/rollup.config.js",
+    "build:esm": "rollup -c config/rollup.config.esm.js",
+    "build:puck": "rollup -c config/rollup.config.puck.js",
+    "build:puck.min": "cross-env NODE_ENV=production npm run build:puck",
+    "build": "npm run clean && npm run build:self && npm run build:esm && npm run build:aio && npm run build:aio.min"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fabric": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/fabric": "^3.6.9",
+    "rollup": "^2.33.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^4.0.5"
+  }
+}
