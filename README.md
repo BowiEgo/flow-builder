@@ -1,16 +1,16 @@
-# [jslib-base](https://github.com/yanhaijing/jslib-base)
+# [flow-builder](https://github.com/BowiEgo/flow-builder)
 
-[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/jslib-base/blob/master/LICENSE)
+[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/BowiEgo/flow-builder)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/BowiEgo/flow-builder/blob/master/LICENSE)
 [![npm](https://img.shields.io/badge/npm-1.6.0-orange.svg)](https://www.npmjs.com/package/@js-lib/cli)
 [![NPM downloads](http://img.shields.io/npm/dm/@js-lib/cli.svg?style=flat-square)](http://www.npmtrends.com/@js-lib/cli)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/yanhaijing/jslib-base.svg)](http://isitmaintained.com/project/yanhaijing/jslib-base "Percentage of issues still open")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/yanhaijing/flow-builder.svg)](http://isitmaintained.com/project/yanhaijing/flow-builder "Percentage of issues still open")
 
 English | [简体中文](./README.zh-CN.md)
 
 The best third party `JS|TS` library scaffold. fast to create the framework for building a new library.
 
-**The library that based jslib-base can be shared to the [jsmini](https://github.com/jsmini) platform**
+**The library that based flow-builder can be shared to the [jsmini](https://github.com/jsmini) platform**
 
 ## Characteristics
 
@@ -108,7 +108,7 @@ $ lerna publish
 
 ## Contributors
 
-[contributors](https://github.com/yanhaijing/jslib-base/graphs/contributors)
+[contributors](https://github.com/yanhaijing/flow-builder/graphs/contributors)
 
 ## Change Log
 
@@ -122,7 +122,7 @@ $ lerna publish
 
 - [jsmini](https://github.com/jsmini)
 - [template.js](https://github.com/yanhaijing/template.js)
-- [...](https://github.com/yanhaijing/jslib-base/issues/10)
+- [...](https://github.com/yanhaijing/flow-builder/issues/10)
 
 ## Relative links
 
