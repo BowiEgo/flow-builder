@@ -15,10 +15,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/fabric": "^3.6.9",
     "fabric": "^4.2.0"
   },
   "devDependencies": {
-    "@types/fabric": "^3.6.9",
     "rollup": "^2.33.1",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
